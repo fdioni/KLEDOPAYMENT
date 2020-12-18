@@ -1,0 +1,13 @@
+copy .env.example dan rename menjadi .env
+
+Jalankan command "composer install"
+
+isi data database pada .env
+isi data pusher pada .env
+
+jalankan command "php artisan key:generate"
+jalankan migrasi database dengan "php artisan migrate"
+untuk dummy data dapat menggunakan command "php artisan db:seed"
+
+
+UI dapat diakses pada url "/public/"
